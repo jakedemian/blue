@@ -31,7 +31,6 @@ public class MiningLaser : MonoBehaviour {
 			RaycastHit hit;
 			Vector3 hitPosition = Vector3.zero;
 			if(Physics.Raycast(ray, out hit, Mathf.Infinity, miningLaserHittableLayer)) {
-				Debug.Log(hit.collider.gameObject.name);
 				GameObject go = hit.collider.gameObject;
 				go.GetComponent < AsteroidController >().health -= laserDamage;
 
