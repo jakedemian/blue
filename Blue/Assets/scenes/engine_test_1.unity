@@ -418,6 +418,12 @@ MonoBehaviour:
   health: 100
   minSpeed: 1
   maxSpeed: 1.5
+  minFragmentSpinSpeed: 3
+  maxFragmentSpinSpeed: 4
+  minFragmentSpeed: 100
+  maxFragmentSpeed: 150
+  AsteroidFragment: {fileID: 1529651275694894, guid: ce2ccf9562b199746b8a2952bd68d649,
+    type: 2}
 --- !u!54 &1182765030
 Rigidbody:
   m_ObjectHideFlags: 0
